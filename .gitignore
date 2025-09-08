@@ -152,3 +152,6 @@ ehthumbs.db
 
 # Linux
 *~
+
+package.json
+package-lock.json
