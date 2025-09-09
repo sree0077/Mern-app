@@ -6,8 +6,8 @@ const router = express.Router();
 //get all todos
 router.get('/',async (req,res) =>{
     try{
-        const todos = await Todo.find();
-        res.json(todos);
+        const todo = await Todo.find();
+        res.json(todo);
     }catch(error){
 
         res.status(500).json({message: error.message})

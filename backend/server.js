@@ -7,9 +7,7 @@ dotenv.config()
 
 const app = express();
 
-app.get("/",(req,res)=>{
-    res.send("server is running")
-})
+app.use(express.json());
 
 app.use("/api/todos", todoRoutes)
 

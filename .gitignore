@@ -155,3 +155,69 @@ ehthumbs.db
 
 package.json
 package-lock.json
+
+# Frontend specific ignores
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/coverage/
+
+# Frontend package files (if you want to ignore them in frontend too)
+frontend/package-lock.json
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+frontend/out/
+
+# Frontend cache and temporary files
+frontend/.vite/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.eslintcache
+frontend/.stylelintcache
+
+# Frontend testing
+frontend/coverage/
+frontend/.nyc_output/
+frontend/test-results/
+frontend/playwright-report/
+frontend/playwright/.cache/
+
+# Frontend IDE and editor files
+frontend/.vscode/
+frontend/.idea/
+frontend/*.swp
+frontend/*.swo
+frontend/*~
+
+# Frontend OS files
+frontend/.DS_Store
+frontend/.DS_Store?
+frontend/._*
+frontend/Thumbs.db
+frontend/ehthumbs.db
+
+# Frontend logs
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Frontend runtime files
+frontend/pids/
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
