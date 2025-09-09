@@ -22,7 +22,7 @@ router.post("/", async (req,res) => {
     })
     try {
         const newTodo = await todo.save();
-        res.status(201).json({newTodo})
+        res.status(201).json(newTodo)
     } catch (error) {
         res.status(400).json({message: error.message})
     }
