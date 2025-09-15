@@ -52,6 +52,7 @@ function App() {
       setEditingTodo(null)
       setEditedText("")
     } catch (error) {
+      
       console.log("error updating todo:",error)
     }
   }
